@@ -4,9 +4,9 @@ Difficulty: Easy
 [Link To Leetcode Problem](https://leetcode.com/problems/shortest-distance-to-a-character/)
 
 ## Problem
-Given a string `s` and a character `c` that occurs in `s`, return <i>an array of integers</i> `answer` <i>where</i> `answer.length == s.length` <i>and</i> `answer[i]` <i>is the <b>distance</b> from index i to the <b>closest</b> occurrence of character</i> `c` <i>in</i> `s`.
+Given a string `s` and a character `c` that occurs in `s`, return *an array of integers* `answer` *where* `answer.length == s.length` *and* `answer[i]` *is the **distance** from index i to the **closest** occurrence of character* `c` *in* `s`.
 
-The <b>distance</b> between two indices `i` and `j` is `abs(i - j)`, where `abs` is the absolute value function.
+The **distance** between two indices `i` and `j` is `abs(i - j)`, where `abs` is the absolute value function.
 
 ## Examples
 ### Example 1:

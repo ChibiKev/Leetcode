@@ -4,9 +4,9 @@ Difficulty: Easy
 [Link To Leetcode Problem](https://leetcode.com/problems/two-sum/)
 
 ## Problem
-Given an array of integers `nums` and an integer `target`, return <i>indices of the two numbers such that they add up</i> to `target`.
+Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up* to `target`.
 
-You may assume that each input would have <b>exactly one solution</b>, and you may not use the <i>same</i> element twice.
+You may assume that each input would have **exactly one solution**, and you may not use the *same* element twice.
 
 You can return the answer in any order.
 ## Examples
@@ -31,4 +31,4 @@ Output: [0,1]
 - `2 <= nums.length <= 10^4`
 - `10^9 <= nums[i] <= 10^9`
 - `10^9 <= target <= 10^9`
-- <b>Only one valid answer exists.</b>
+- **Only one valid answer exists.**
