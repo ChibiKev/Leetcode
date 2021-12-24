@@ -18,7 +18,7 @@
       if (currentWordValue < nextWordValue) {
         break;
       }
-      else if (currentWordValue == nextWordValue) {
+      else if (currentWordValue === nextWordValue) {
         continue;
       }
       else {

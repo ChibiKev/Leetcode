@@ -16,9 +16,9 @@
     let secondRowMixed = new Set([...secondRow, ...loweredWord]);
     let thirdRowMixed = new Set([...thirdRow, ...loweredWord]);
 
-    let checkFirstRow = firstRowMixed.size == firstRow.size;
-    let checkSecondRow = secondRowMixed.size == secondRow.size;
-    let checkThirdRow = thirdRowMixed.size == thirdRow.size;
+    let checkFirstRow = firstRowMixed.size === firstRow.size;
+    let checkSecondRow = secondRowMixed.size === secondRow.size;
+    let checkThirdRow = thirdRowMixed.size === thirdRow.size;
     if (checkFirstRow || checkSecondRow || checkThirdRow){
       output.push(word);
     }
