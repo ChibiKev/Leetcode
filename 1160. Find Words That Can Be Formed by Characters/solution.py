@@ -14,15 +14,14 @@ class Solution(object):
       else:
         charDictionary[char] += 1
     
-    charSub = charDictionary.copy()
-    
     for word in words:
+      charSub = charDictionary.copy()
       counter = 0
       for character in word:
-        if character in charDictionary:
-          if charDictionary[character] > 0:
+        if character in charSub:
+          if charSub[character] > 0:
             counter += 1
-            charDictionary[character] -= 1
+            charSub[character] -= 1
           else:
             counter = 0
             break
@@ -30,6 +29,5 @@ class Solution(object):
           counter = 0
           break
       result += counter
-      charDictionary = charSub.copy()
-        
+
     return result
