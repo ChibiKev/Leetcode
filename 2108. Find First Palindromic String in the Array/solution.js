@@ -7,7 +7,7 @@
   for (let word of words){
     let lengthOfWord = word.length;
     let found = false;
-    for(let i = 0; i < lengthOfWord/2; i++){
+    for (let i = 0; i < lengthOfWord/2; i++){
       if(word[i] === word[lengthOfWord - i - 1]){
         found = true;
       }
