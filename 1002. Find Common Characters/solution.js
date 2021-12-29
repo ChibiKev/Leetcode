@@ -5,7 +5,7 @@
  var commonChars = function(words) {
   let result = [];
   for (let index in words){
-    let currentSplit = words[index].split("");
+    let currentSplit = [...words[index]];
     if (index == 0){
       result = currentSplit;
       continue;
