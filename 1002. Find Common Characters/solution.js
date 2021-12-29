@@ -8,7 +8,6 @@
     let currentSplit = words[index].split("");
     if (index == 0){
       result = currentSplit;
-      console.log(result)
       continue;
     }
 
