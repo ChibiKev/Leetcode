@@ -5,9 +5,9 @@
  var mostWordsFound = function(sentences) {
   let max = 0;
   for (let sentence of sentences){
-    let amountOfSpaces = sentence.split(" ").length;
-    if (amountOfSpaces > max){
-      max = amountOfSpaces;
+    let amountOfWords = sentence.split(" ").length;
+    if (amountOfWords > max){
+      max = amountOfWords;
     }
   }
 
