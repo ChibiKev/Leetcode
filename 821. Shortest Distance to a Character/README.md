@@ -26,6 +26,6 @@ Output: [3,2,1,0]
 ```
 
 ## Constraints:
-- `1 <= s.length <= 104`
+- `1 <= s.length <= 10^4`
 - `s[i]` and `c` are lowercase English letters.
 - It is guaranteed that `c` occurs at least once in `s`.
