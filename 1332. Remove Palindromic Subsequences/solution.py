@@ -1,0 +1,11 @@
+class Solution(object):
+  def removePalindromeSub(self, s):
+    """
+    :type s: str
+    :rtype: int
+    """
+    if s == '':
+      return 0
+    elif s == s[::-1]:
+      return 1
+    return 2
