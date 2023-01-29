@@ -1,5 +1,5 @@
 # 53. Maximum Subarray
-Difficulty: Easy
+Difficulty: Medium
 
 [Link To Leetcode Problem](https://leetcode.com/problems/maximum-subarray/)
 

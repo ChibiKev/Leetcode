@@ -1,5 +1,5 @@
 # 937. Reorder Data in Log Files
-Difficulty: Easy
+Difficulty: Medium
 
 [Link To Leetcode Problem](https://leetcode.com/problems/reorder-data-in-log-files/)
 

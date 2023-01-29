@@ -1,5 +1,5 @@
 # 852. Peak Index in a Mountain Array
-Difficulty: Easy
+Difficulty: Medium
 
 [Link To Leetcode Problem](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
 

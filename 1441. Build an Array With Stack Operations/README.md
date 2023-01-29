@@ -1,5 +1,5 @@
 # 1441. Build an Array With Stack Operations
-Difficulty: Easy
+Difficulty: Medium
 
 [Link To Leetcode Problem](https://leetcode.com/problems/build-an-array-with-stack-operations/)
 

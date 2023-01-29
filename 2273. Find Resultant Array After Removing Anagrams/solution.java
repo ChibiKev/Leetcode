@@ -1,6 +1,6 @@
 class Solution {
   public List<String> removeAnagrams(String[] words) {
-    List<String> newWords = new ArrayList<String>();;
+    List<String> newWords = new ArrayList<String>();
     for (int index = 0; index < words.length; index++){
       String word = words[index];
       char[] chars = word.toCharArray();

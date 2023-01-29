@@ -3,7 +3,7 @@ public:
   vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2) {
     unordered_map<int, int> dictionary;
     vector<int> others;
-    unordered_set<int> mySet = unordered_set<int>(arr2.begin(),arr2.end());;
+    unordered_set<int> mySet = unordered_set<int>(arr2.begin(),arr2.end());
     for (int index = 0; index < arr1.size(); index++){
       int num = arr1[index];
       if (mySet.count(num) == 1){
