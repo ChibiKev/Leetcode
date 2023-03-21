@@ -1,5 +1,5 @@
 # 66. Plus One
-Difficulty: Medium
+Difficulty: Easy
 
 [Link To Leetcode Problem](https://leetcode.com/problems/plus-one/)
 

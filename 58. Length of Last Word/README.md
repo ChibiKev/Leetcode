@@ -1,5 +1,5 @@
 # 58. Length of Last Word
-Difficulty: Medium
+Difficulty: Easy
 
 [Link To Leetcode Problem](https://leetcode.com/problems/length-of-last-word/)
 
