@@ -1,0 +1,5 @@
+# Write your MySQL query statement below
+SELECT Weather1.id
+FROM Weather AS Weather1, Weather AS Weather2
+WHERE Weather1.recordDate = DATE_SUB(Weather2.recordDate, INTERVAL -1 DAY)
+AND Weather1.temperature > Weather2.temperature;
