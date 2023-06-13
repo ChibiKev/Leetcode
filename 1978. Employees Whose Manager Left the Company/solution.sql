@@ -1,0 +1,9 @@
+/* Write your T-SQL query statement below */
+SELECT Employees.employee_id
+FROM Employees
+LEFT JOIN Employees AS Managers
+ON Employees.manager_id = Managers.employee_id
+WHERE Employees.manager_id IS NOT NULL AND
+      Employees.salary < 30000 AND
+      Managers.employee_id IS NULL
+ORDER BY Employees.employee_id ASC;
