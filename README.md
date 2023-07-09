@@ -6,10 +6,10 @@
 - Completed Leetcode Problem Types:
   - Difficulty: Easy
     - Tags: Array, String, HashTable, Dynamic Programming, Math, Sorting, Depth-First Search, Breadth-First Search
-    - Problem Sets: Algorithm, Database, JavaScript
+    - Problem Sets: Algorithm, Database, JavaScript, Shell
 - In Progress Leetcode Problem Types:
   - Difficulty: Easy
-    - Problem Sets: Shell
+    - Problem Sets: Concurrency
   
 ## Ask me about anything
 If there are any questions, feel free to ask them [here](https://github.com/ChibiKev/Leetcode/issues).
